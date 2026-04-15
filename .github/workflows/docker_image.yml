@@ -8,3 +8,6 @@ on:
 jobs:
   build:
     uses: acvigue/.github/.github/workflows/docker_build.yml@main
+    with:
+      arm_runner: "ubuntu-arm-m"
+      amd_runner: "ubuntu-latest-m"
