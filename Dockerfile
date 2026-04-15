@@ -62,7 +62,7 @@ WORKDIR /src/ffmpeg-${FFMPEG_VERSION}
 RUN ./configure \
     --disable-everything \
     --disable-doc --disable-htmlpages --disable-manpages --disable-podpages --disable-txtpages \
-    --disable-autodetect --disable-network \
+    --disable-autodetect \
     --disable-programs --enable-ffmpeg \
     --enable-gpl --enable-version3 --enable-small \
     --enable-static --disable-shared \
